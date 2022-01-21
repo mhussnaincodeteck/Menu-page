@@ -36,7 +36,7 @@ export class MainPageComponent implements OnInit {
   // Delete item
   delete_item(item){
     console.log("trigered")
-    let removePrice = this.order[item][1];
+    let removePrice = this.order[item][1]*this.order[item][2];
     let finalPrice = +removePrice;
     this.billamount = this.billamount - finalPrice;
     this.order.splice(item,1);
