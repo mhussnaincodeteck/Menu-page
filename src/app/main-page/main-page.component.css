@@ -1,0 +1,205 @@
+.container-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    width: 58.3333%;
+}
+.line{
+    background-color: black;
+    height: 4px;
+}
+.banner-line{
+    background-color: black;
+    height: 6px;
+    width: 100%;
+}
+.menu{
+    background: #000;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+    margin-top: -43px;
+    padding-bottom: 2px;
+
+}
+.menu p{
+    font-size: 1.125rem;
+    line-height: 1;
+    color: yellowgreen;
+}
+.below-menu{
+    margin: 0.5rem;
+    width: 100%;
+   border-left: none;
+   border-top: 3px solid black;
+   border-bottom: 3px solid black;
+}
+.list-disc{
+    list-style: disc;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.products-main{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-right: 3px solid black;
+    width: 45%;
+
+}
+.card{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.bill{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 0.25rem;
+    padding-top: 10px;
+}
+.bill-direction{
+    flex-direction: row-reverse;
+}
+.pro-title{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 0.25rem;
+}
+.img{
+    flex: 0 0 auto;
+    width: 33.3333%;
+}
+
+.img img{
+    width:160px;
+    height:160px;
+    object-fit: fill;
+    
+}
+.details{
+    flex: 0 0 auto;
+    width: 50%;
+    text-align: right;
+}
+/* .input-btns{
+  
+} */
+.right{
+    margin: auto;
+    width: 50%;
+}
+.banner-img{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.banner-img img{
+    width:100%;
+    height:100%;
+    object-fit:fit;
+    background-color: chartreuse;
+
+}
+.queries{
+    text-align: center;
+}
+.banner-text{
+    text-align: center;
+    padding: 0.25rem;
+    font-size: 33px;
+}
+.banner-content-main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.5rem;
+    margin-left: -0.5rem;
+    margin-top: -0.5rem;
+    width: 100%;
+    margin: auto;
+    margin-top: 0.25rem;
+    justify-content: center;
+}
+.billmain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    width: 33.3333%;
+}
+.bill-info{
+    height: auto;
+    flex: 0 0 auto;
+    width: 100%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .icon{
+      background-color: brown;
+      color: white;
+      padding: 1px;
+      float: right;
+      cursor: pointer;
+      font-size: 10px;
+  }
+  table tr th{
+      background-color: black;
+      color: white;  
+  }
+  .quantity{
+      text-align: center;
+      display: flex;
+      justify-content: space-between;
+  }
+input{
+    background-color:#EF4444;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    width: 100%;
+}
+.print-btn{
+    background-color:#EF4444;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+
+}
+.lastrow{
+    width: 100%;
+    align-items: center;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}

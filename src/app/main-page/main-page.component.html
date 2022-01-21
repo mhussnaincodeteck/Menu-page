@@ -1,0 +1,252 @@
+<div class="container-main">
+    <div class="container">
+      <hr class="line" />
+      <div class="menu">
+        <h1>M E N U</h1>
+        <p>
+          DAILY FRESH FAST FOOD TRUCK
+        </p>
+      </div>
+      <div class="below-menu">
+        <ol class="list-disc">
+          <li>SINCE 2021</li>
+          <li>OPEN 7 DAYS A WEEK</li>
+          <li>4PM TO MIDNIGHT</li>
+        </ol>
+      </div>
+  
+      <div class="products-main">
+        <!-- Left side -->
+        <div class="left">
+          <!-- Card -->
+          <div class="card">
+            <div class="pro-title">
+              <h3>Catchy Burgers </h3>
+            </div>
+            <div class="bill">
+              <div class="img">
+                <img src="assets/burger.png" alt="burger image"  />
+              </div>
+              <div class="details">
+                <input
+                  id="dealone"
+                  #dealone
+                  type="button"
+                  (click)="addproduct(dealone.value)"
+                  class="input-btns"
+                  value="The Bun Jovi 🍔 220"
+                />
+                <input
+                  #dealtwo
+                  id="dealtwo"
+                  type="button"
+                  (click)="addproduct(dealtwo.value)"
+                  class="input-btns"
+                  value="Burger N’ Bite 🍔 300"
+                />
+                <input
+                  #dealthree
+                  type="button"
+                  (click)="addproduct(dealthree.value)"
+                  class="input-btns"
+                  value="The IceBurg 🍔 400"
+                />
+                <input
+                  #dealfour
+                  type="button"
+                  (click)="addproduct(dealfour.value)"
+                  class="input-btns"
+                  value="The Grill Thrill 🍔 520"
+                />
+              </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="pro-title">
+              <h3>Vegan Shawarmas</h3>
+            </div>
+            <div class="bill bill-direction">
+              <div class="img">
+                <img src="assets/shaw.png" alt="burger image"  />
+              </div>
+              <div class="details">
+                <input
+                  id="dealone"
+                  #dealone
+                  type="button"
+                  (click)="addproduct(dealone.value)"
+                  class="input-btns"
+                  value="Veggie Grill shawarma 🍔 220"
+                />
+                <input
+                  #dealtwo
+                  id="dealtwo"
+                  type="button"
+                  (click)="addproduct(dealtwo.value)"
+                  class="input-btns"
+                  value="Green Affair 🍔 300"
+                />
+                <input
+                  #dealthree
+                  type="button"
+                  (click)="addproduct(dealthree.value)"
+                  class="input-btns"
+                  value="Sunflower shawarma 🍔 400"
+                />
+                <input
+                  #dealfour
+                  type="button"
+                  (click)="addproduct(dealfour.value)"
+                  class="input-btns"
+                  value="Native Bun 🍔 520"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="pro-title">
+              <h3>Cheeseburgers</h3>
+            </div>
+            <div class="bill">
+              <div class="img">
+                <img src="assets/chese.png" alt="burger image"  />
+              </div>
+              <div class="details">
+                <input
+                  id="dealone"
+                  #dealone
+                  type="button"
+                  (click)="addproduct(dealone.value)"
+                  class="input-btns"
+                  value="Smokin’ Cheese 🍔 220"
+                />
+                <input
+                  #dealtwo
+                  id="dealtwo"
+                  type="button"
+                  (click)="addproduct(dealtwo.value)"
+                  class="input-btns"
+                  value="Mighty N’ Cheesy 🍔 300"
+                />
+                <input
+                  #dealthree
+                  type="button"
+                  (click)="addproduct(dealthree.value)"
+                  class="input-btns"
+                  value="Gold N’ Patty 🍔 400"
+                />
+                <input
+                  #dealfour
+                  type="button"
+                  (click)="addproduct(dealfour.value)"
+                  class="input-btns"
+                  value="88th Cheeseburger 🍔 520"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Right side -->
+        <div class="right">
+          <div class="card">
+            <div class="banner-text">
+              <h3>BURGER ❌ BURRITO</h3>
+            </div>
+            <div class="banner-content-main">
+              <div class="banner-img">
+                <img src="assets/banner.jpg" alt="burger image" />
+              </div>
+              <hr class="banner-line" />
+              <div class="queries">
+                <p>.............. FOR QUERIES AND ORDER: ..............</p>
+                <h4>0331-8898710 & 0309-8769098</h4>
+              </div>
+              <hr class="banner-line" />
+            </div>
+          </div>
+          <div class="card">
+            <div class="pro-title">
+              <h3>Sides</h3>
+            </div>
+            <div class="bill bill-direction">
+              <div class="img">
+                <img src="assets/drink.png" alt="burger image" />
+              </div>
+              <div class="details">
+                <input
+                id="dealone"
+                #dealone
+                type="button"
+                (click)="addproduct(dealone.value)"
+                class="input-btns"
+                value="Soda Fresh 🍔 220"
+              />
+              <input
+                #dealtwo
+                id="dealtwo"
+                type="button"
+                (click)="addproduct(dealtwo.value)"
+                class="input-btns"
+                value="Fountain Drink 🍔 300"
+              />
+              <input
+                #dealthree
+                type="button"
+                (click)="addproduct(dealthree.value)"
+                class="input-btns"
+                value="Drinksify 🍔 400"
+              />
+              <input
+                #dealfour
+                type="button"
+                (click)="addproduct(dealfour.value)"
+                class="input-btns"
+                value="Cocktailtastic 🍔 520"
+              />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="billmain">
+    <div class="bill-info" id="print-section">
+      <div class="banner-text">
+        <h3>BURGER ❌ BURRITO INVOICE</h3>
+      </div>
+      <table >
+        <tr>
+          <th>Item</th>
+          <th>Quantity</th>
+          <th>Price /-</th>
+        </tr>
+        <tr *ngFor="let item of order; let i = index" >
+          <td>{{item[0]}}</td>
+          <td  class="quantity">
+            <span *ngIf="this.isButtonVisible" (click)="minus_quantity(i)"><i class="fas fa-minus icon" ></i></span>
+            {{item[2]}}
+            <span *ngIf="this.isButtonVisible" (click)="add_quantity(i)">
+            <i class="fas fa-plus icon" ></i>
+          </span> 
+         </td>
+          <td>{{item[1]}}
+            <span (click)="delete_item(i)">
+              <i class="fas fa-trash-alt icon "></i>
+            </span>
+          </td>
+        </tr>
+      </table>
+      <div class="lastrow">
+        <div class="total">
+          <td class="font-bold">Total</td>
+          <td>{{billamount}}</td>
+        </div>
+        <td>{{ today | date:'medium' }} </td>
+        <button class="print-btn" printSectionId="print-section" ngxPrint>Print Bill</button>
+      </div>
+      <a routerLink="/calculater">Go to calculater</a>
+    </div>
+   
+  </div>
+  </div>

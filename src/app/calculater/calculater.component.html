@@ -1,0 +1,40 @@
+<div class="cal-main">
+    <h3>BURGER ❌ BURRITO</h3>
+  </div>
+<table class = "calculator" >
+    <tr>
+    <td colspan = "5"> <input [value]="display_val" class = "display-box" type = "text" id = "result" disabled /></td>
+
+    </tr>
+    <tr>
+    <!-- buttons -->
+    <td> <input class = "button" type = "button" value = "1" (click) = "display('1')" /> </td>
+    <td> <input class = "button" type = "button" value = "2" (click) = "display('2')" /> </td>
+    <td> <input class = "button" type = "button" value = "3" (click) = "display('3')" /> </td>
+    <td> <input class = "button" type = "button" value = "/" (click) = "display('/')" /> </td>
+    <td> <input class = "button" type = "button" value = "%" (click) = "display('%')" /> </td>
+    </tr>
+    <tr>
+    <td> <input class = "button" type = "button" value = "4" (click) = "display('4')" /> </td>
+    <td> <input class = "button" type = "button" value = "5" (click) = "display('5')" /> </td>
+    <td> <input class = "button" type = "button" value = "6" (click) = "display('6')" /> </td>
+    <td> <input class = "button" type = "button" value = "-" (click) = "display('-')" /> </td>
+    <td> <input class = "button" type = "button" value = "C" (click) = "clearScreen()" style = "background-color: #fb0066;" /> </td>
+
+    </tr>
+    <tr>
+    <td> <input class = "button" type = "button" value = "7" (click) = "display('7')" /> </td>
+    <td> <input class = "button" type = "button" value = "8" (click) = "display('8')" /> </td>
+    <td> <input class = "button" type = "button" value = "9" (click) = "display('9')" /> </td>
+    <td> <input class = "button" type = "button" value = "+" (click) = "display('+')" /> </td>
+    <td> <input class = "button" type = "button" value = "back"  (click) = "back()" style = "background-color: #fb0066;" /> </td>
+
+    </tr>
+    <tr>
+    <td> <input class = "button" type = "button" value = "." (click) = "display('.')" /> </td>
+    <td> <input class = "button" type = "button" value = "0" (click) = "display('0')" /> </td>
+    <!-- calculate() -->
+    <td> <input class = "button" type = "button" value = "=" (click) = "calculate()" style = "background-color: #fb0066;" /> </td>
+    <td> <input class = "button" type = "button" value = "*" (click) = "display('*')" /> </td>
+    </tr>
+    </table>
